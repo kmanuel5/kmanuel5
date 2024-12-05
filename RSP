@@ -1,0 +1,39 @@
+```mermaid
+graph TD
+    A[Lead Identification] --> B[Initial Lead Assessment]
+    B --> C[Assess Market]
+    C --> D[In-depth Market Research]
+    D --> E[Client Interaction]
+
+    E --> F[Create Shortlist of Candidates]
+    F --> G[Send Candidate Proposals to Client]
+    G --> H[Client Feedback]
+    
+    H --> I[Review & Shortlist Updates]
+    I --> J[Client Approval]
+    J --> K[Offer Negotiation]
+    
+    K --> L[Client Confirmation]
+    L --> M[Placement Confirmation]
+
+    %% Roles & Tasks
+    A1[LT / KF: Oversee Lead Identification] --> B
+    B1[LT / KF: Assess Market] --> C
+    D1[LT / KF: Conduct In-depth Research] --> D
+    E1[LT / KF: Manage Client Interactions] --> E
+    F1[LT / KF: Lead Candidate Shortlisting] --> F
+    G1[LT / KF: Propose Candidates to Client] --> G
+    H1[LT / KF: Manage Client Feedback] --> H
+    I1[LT / KF: Review & Update Shortlist] --> I
+    J1[LT / KF: Obtain Client Approval] --> J
+    K1[LT / KF: Negotiate Offers with Client] --> K
+    L1[LT / KF: Confirm Placement with Client] --> L
+    M1[LT / KF: Finalize Placement Confirmation] --> M
+    
+    %% Research Consultant (RC) Tasks
+    RC1[RC: Support Lead Assessment] --> B
+    RC2[RC: Assist with Market Research] --> D
+    RC3[RC: Provide Data & Insights for Shortlisting] --> F
+    RC4[RC: Help with Client Feedback & Updates] --> H
+    RC5[RC: Assist with Offer Negotiation] --> K
+    RC6[RC: Help Finalize Placement Confirmation] --> M
